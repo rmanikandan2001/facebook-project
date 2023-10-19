@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>facebook newsfeed</title>
+			<link rel="icon" type="image/jpg" href="images/fb.png" style = "width:100%; height:auto;">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+			<meta charset="UTF-8">
+			<meta name="description" content="facebook">
+			<meta name="keywords" content="HTML,CSS">
+			<meta name="author" content="Venkatesh">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="style.css">
+			<link rel="stylesheet" href="responsive.css">
+		</head>
+		<body>
+			
+			<!---facebook navbar section---->
+			
+				<section class="navbar-section">
+				
+					<div class="container-fluid">
+					
+						<div class="row">
+						
+							<div class="col-3 col-lg-3 col-md-6 col-sm-6">
+							
+								<div class="fb-head">
+								
+									<h1>facebook</h1>
+									
+								</div>
+								
+							</div>
+							
+							<div class="col-6 col-lg-6 col-md-5">
+							
+								<div class="search-bar">
+								
+									 <input type="text" id = "search" placeholder="Search facebook..">
+									
+								</div>
+								
+							</div>
+							
+							<div class="col-3 col-lg-3 col-md-3 col-sm-6">
+							
+								<div class="fb-icon">
+								
+									<i class="bi bi-messenger"></i>
+									
+									<i class="bi bi-bell-fill"></i>
+									
+									<img class ="clown-1" src = "images/icon-1.jpg">
+									
+								</div>
+								
+							</div>
+							
+						</div>
+						
+					</div>
+					
+				</section>
+			
+			
+			<!---facebook navbar section---->
+			
+			
+			<!---facebook content section---->
+			
+				<section class="content-section">
+				
+					<div class="container-fluid">
+					
+						<div class="row">
+						
+							<div class="col-3 col-lg-3 col-md-3 col-sm-12 left">
+							
+								<div class="">
+								
+									<div class="content-1">
+										<i class="bi bi-house-door-fill"></i><p>Home</p>
+									</div>
+									
+									<div class="content-2">
+										<img class ="clown-1" src = "images/icon-1.jpg"><p>Manikandan</p>
+									</div><br><hr>
+									
+								</div>
+								
+								<div class="content-1">
+									<i class="bi bi-webcam-fill"></i><p>Video</p>
+								</div>
+								
+								<div class="content-1">
+									<i class="bi bi-shop-window"></i><p>Market place</p>
+								</div>
+								
+								<div class="content-1">
+									<i class="bi bi-controller"></i><p>Gaming</p>
+								</div>
+								
+								<div class="content-1">
+									<i class="bi bi-list"></i><p>See all</p>
+								</div><br><hr>
+								
+								<div class="content-1">
+									<i class="bi bi-webcam-fill"></i><p>Video</p>
+								</div>
+								
+								<div class="content-1">
+									<i class="bi bi-shop-window"></i><p>Market place</p>
+								</div>
+								
+								<div class="content-1">
+									<i class="bi bi-controller"></i><p>Gaming</p>
+								</div>
+								
+								<div class="content-1">
+									<i class="bi bi-list"></i><p>See all</p>
+								</div><br><hr>
+								
+							</div>
+							
+							<div class="col-12 col-lg-5 col-md-5 col-sm-12">
+							
+								<div class="card">
+								
+									<div class="name">
+										
+										<div class="name-circle">
+										
+											<img class ="clown" src = "images/icon-1.jpg">
+											
+										</div>
+										
+										<div class="name-head">
+										
+											<h4>Manikandan</h4>
+											
+										</div>
+										
+										<div class="name-option">
+										
+											<i class="bi bi-three-dots"></i>
+										
+											<i class="bi bi-x-lg"></i>
+											
+										</div>
+										
+									</div>
+									
+									<!-- <div class="line"> -->
+										
+									<!-- </div> -->
+									
+									<div class="">
+										<img class="img" src="images/icon.jpg">
+									</div>
+									
+									<div class="result">
+									</div>
+									
+									<div class="line">
+										
+									</div>
+									
+									
+									<div class="col-12 col-lg-12 col-md-12 col-sm-12">
+									
+										<div class="reaction">
+										
+											<div class="thumbs">
+											
+												<!-- <div class="emoji"> -->
+													<!-- &#128072; -->
+												<!-- </div> -->
+												
+												<i class="bi bi-hand-thumbs-up"></i> Like
+												
+												
+											</div>
+											
+											<div class="chat">
+											
+												<i id = "chat" class="bi bi-chat-left"></i> Comment
+												
+											</div>
+											
+											<div id="share">
+											
+												<a href="" id = "move" <i class="fa fa-share"></i> Share</a>
+												 
+											</div>
+											
+											
+										
+										</div>
+										
+									</div>
+									
+									<div class = "col-12" id = "comment" class = "comment">
+												
+										<form action ="" id = "form">
+													
+											<textarea name = "" id = "input" placeholder = "write a comment"></textarea>
+														
+											<button type = "submit" class = "btn"><i class="bi bi-send"></i></button>
+														
+										</form>
+										
+									</div>
+									
+									<div id = "posts">
+												
+									</div>
+									
+									<div id = "modal" class = "modal-1">
+											
+										<div class = "modal-content">
+												
+											<span class = "close">&times;</span>
+													
+												<p><i id = "icon" class="fa fa-share"></i>share now (public)</p>
+												<p><i id = "icon" class="bi bi-pencil-square"></i>share to feed</p>
+												<p><i id = "icon" class="bi bi-plus-circle"></i>share to your story(public)</p>
+												<p><i id = "icon" class="bi bi-messenger"></i>send in messanger</p>
+												<p><i id = "icon" class="bi bi-flag"></i>share to page</p>
+												<p><i id = "icon" class="bi bi-people"></i>share on a friends profile</p>
+												
+										</div>
+											
+									</div>
+									
+								</div>
+								
+							</div>
+							
+							<div class="col-3 col-lg-3 col-md-3 col-sm-12 right">
+							
+								<div class="contact">
+								
+									<div class="col-8">
+									
+										<h5>contacts</h5>
+										
+									</div>
+									
+									<div class="col-1">
+									
+										<i class="bi bi-camera-reels"></i>
+										
+									</div>
+									
+									<div class="col-1">
+									
+										<i class="bi bi-search"></i>
+										
+									</div>
+									
+									<div class="col-1">
+									
+										<i class="bi bi-three-dots"></i>
+										
+									</div>
+								</div>
+								
+								<div class="contact-online">
+								
+									<div class="online">
+										<p><i class="bi bi-person-circle"></i>anbu raj</p>
+									</div>
+									
+									<div class="online">
+										<p>Cherman</p>
+									</div>
+									
+									<div class="online">
+										<p>manikandan</p>
+									</div>
+									
+									<div class="online">
+										<p>mathan</p>
+									</div>
+									
+									<div class="online">
+										<p>barath</p>
+									</div>
+									
+									<div class="online">
+										<p><i class="bi bi-person-circle"></i>anbu raj</p>
+									</div>
+									
+									<div class="online">
+										<p>Cherman</p>
+									</div>
+									
+									<div class="online">
+										<p>manikandan</p>
+									</div>
+									
+									<div class="online">
+										<p>mathan</p>
+									</div>
+									
+									<div class="online">
+										<p>barath</p>
+									</div>
+									
+								</div>
+							</div>
+							
+						</div>
+						
+					</div>
+					
+				</section>
+			<!---facebook content section---->
+			
+			
+			<script src="main.js"></script>
+		</body>
+	</html>

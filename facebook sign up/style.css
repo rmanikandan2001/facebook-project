@@ -1,0 +1,72 @@
+
+	.cteate{
+	margin-top:30px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+	
+	.card{
+		padding:20px;
+		width:580px;
+		height:400px;
+		box-shadow:0 0 10px gray;
+		border-radius:10px;
+	}
+	
+	.text{
+		display:flex;
+		flex:row;
+		height:50px;
+	}
+
+.create{
+	text-align:center;
+	padding-bottom:10px;
+}
+.create p{
+	color:gray;
+}
+.name{
+	display:flex;
+	flex-direction:row;
+	
+}
+#firstname{
+	width:50%;
+	padding:15px;
+	border-radius:5px;
+	border:1px solid gray;
+}
+#surname{
+	width:50%;
+	padding:15px;
+	border-radius:5px;
+	border:1px solid gray;
+}
+#email{
+	padding:15px;
+	width:95%;
+	border-radius:5px;
+	border:1px solid gray;
+}
+#password{
+	padding:15px;
+	width:95%;
+	border-radius:5px;
+	border:1px solid gray;
+}
+
+.btn{
+	padding:15px;
+	width:250px;
+	border-radius:5px;
+	border:1px solid gray;
+	position:relative;
+	left:160px;
+	background-color:green;
+	color:white;
+	font-size:20px;
+	
+}
